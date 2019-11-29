@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg">
+    <Button
+        android:id="@+id/button_3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/account_sina"
+
+        android:text="新浪微博"
+        android:layout_centerInParent="true"/>
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/button_3"
+        android:layout_centerInParent="true"
+        android:drawableLeft="@drawable/account_tencent"
+        android:text="腾讯微博"/>
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/button_2"
+        android:layout_centerInParent="true"
+        android:drawableLeft="@drawable/ic_user"
+        android:text="用户名登录"/>
+    <ImageView
+        android:id="@+id/image_0"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/splash_logo"
+        android:layout_above="@id/button_1"
+        android:layout_centerInParent="true"/>
+    <Button
+        android:id="@+id/button_4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/button_3"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent"
+        android:text="注册"/>
+
+</RelativeLayout>
